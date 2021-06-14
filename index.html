@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--   fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+<!--   toggle groups -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="src/css/masonry_styles.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+<div class="header">
+  <h2>Portfolio</h2>
+</div>
+
+<div class="button-toggle">
+  <button class="project-button">Projects</button>
+  <button class="adventure-button">Adventure</button>
+  <button class="learning-button">Learning</button>
+</div>
+
+<div class="masonry-wrapper">
+<div class="masonry row" id="add_after_me">
+  <template>
+    <div id="colour" class="column masonry-item">
+      <div class="post masonry-content">
+        <h2 id="title" class="masonry-title"></h2>
+        <h3 id="description" class="masonry-description"></h3>
+<!--         <div class="desc">Add a description of the image here</div> -->
+        <a id="url"><img  id="src"></a>
+      </div>
+    </div>
+  </template>
+</div>
+</div>
+
+<script type="text/javascript" src="src/data/projects.json"></script>
+<script src="src/js/scripts.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="src/js/masonry_scripts.js"></script></body>
+</html>
