@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
+
 <div class="header">
   <h2>Portfolio</h2>
 </div>
@@ -24,10 +25,12 @@
   <template>
     <div id="colour" class="column masonry-item">
       <div class="post masonry-content">
+        <a id="url">
         <h2 id="title" class="masonry-title"></h2>
         <h3 id="description" class="masonry-description"></h3>
 <!--         <div class="desc">Add a description of the image here</div> -->
-        <a id="url" target="_blank"><img  id="src"></a>
+        <img  id="src">
+      </a>
       </div>
     </div>
   </template>
@@ -38,5 +41,7 @@
 <script src="src/js/scripts.js"></script>
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-<script src="src/js/masonry_scripts.js"></script></body>
+<script src="src/js/masonry_scripts.js"></script>
+
+</body>
 </html>
