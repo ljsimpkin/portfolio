@@ -95,6 +95,11 @@ button {
   }
 }
 
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
 /* Landscape */
 /*@media only screen and (max-width: 1023px) and (orientation:landscape) {
    .masonry {
