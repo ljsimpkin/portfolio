@@ -1,6 +1,6 @@
 # portfolio
 
-As featured on my [website](liamsimpkin.com)
+As featured on my [website](https://liamsimpkin.com)
 
 Thanks to masonry builder too for the starting point.
 
